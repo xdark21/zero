@@ -11,20 +11,13 @@
     background-color: #2C43FF;
     color: #fff;
 }
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
+.hero.is-white {
+    background-color: #2C43FF;
+    color: #0a0a0a;
 }
-
-.fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.hero.is-white .title {
+    color: #fafafa;
+}
+.hero.is-white .subtitle {
+    color: #fafafa;
 }
